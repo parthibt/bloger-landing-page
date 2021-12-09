@@ -1,0 +1,25 @@
+{
+  "name": "bloger-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/main.css -o style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthibt/bloger-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthibt/bloger-landing-page/issues"
+  },
+  "homepage": "https://github.com/parthibt/bloger-landing-page#readme",
+  "devDependencies": {
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2"
+  }
+}
