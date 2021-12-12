@@ -11118,33 +11118,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-transperant {
-  color: #fff;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-size: 1rem;
-  padding: 0.5em 1em;
-  border-radius: 20px;
-  margin: 1em;
-}
-
-.white-back:hover {
-  background: #fff;
-}
-
-.btn-white {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5em 1em;
-  border-radius: 20px;
-  background: #fff;
-  text-transform: capitalize;
-}
-.btn-white:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
-}
-
 .header {
   background: linear-gradient(to right, #ff8f70, #ff3d54);
   color: #fff;
@@ -11180,4 +11153,4 @@ textarea.form-control-lg {
   color: #000;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=navAndhead.css.map */

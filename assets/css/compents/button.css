@@ -11145,39 +11145,4 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.header {
-  background: linear-gradient(to right, #ff8f70, #ff3d54);
-  color: #fff;
-  position: relative;
-  z-index: 999;
-  overflow: hidden;
-  border-bottom-left-radius: 40px;
-  font-family: "Overpass", sans-serif;
-}
-.header .head__back {
-  position: absolute;
-  top: -235%;
-  left: 0;
-  width: 175%;
-  z-index: -1;
-}
-.header .head__text {
-  padding: 8em 0em;
-  text-align: center;
-  z-index: 1;
-}
-.header .head__text .head__h1 {
-  font-weight: 600;
-}
-.header .head__text .head__small {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.container .dropdown-item {
-  text-transform: capitalize;
-}
-.container .dropdown-item:hover {
-  color: #000;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=button.css.map */

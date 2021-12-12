@@ -11,4 +11,24 @@ $gray-800: #343a40 ;
 $gray-900: #212529 ;
 $black:    #000 ;
 
+
+//primary colors
+$primary: hsl(356, 100%, 66%);
+$secondary: hsl(355, 100%, 74%);
+$primary-blue: hsl(208, 49%, 24%);
+
+//neutral colors
+$footer-text: hsl(240, 2%, 79%);
+$body-copy: hsl(207, 13%, 34%);
+$footer-back: hsl(240, 10%, 16%);
+
+//gradient
+$gradient-1: hsl(13, 100%, 72%); 
+$gradient-2: hsl(353, 100%, 62%);
+$gradient-3: hsl(237, 17%, 21%);
+$gradient-4: hsl(237, 23%, 32%);
+
+//dropdown
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

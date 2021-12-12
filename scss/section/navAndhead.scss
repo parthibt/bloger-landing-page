@@ -1,0 +1,39 @@
+@use '../custom' as *;
+
+.header{
+    background: linear-gradient(to right, rgba($gradient-1,1),rgba($gradient-2,1));
+    color: $white;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+    border-bottom-left-radius: 40px;
+    font-family: 'Overpass', sans-serif;
+
+  .head__back{
+      position: absolute;
+      top: -235%;
+      left: 0;
+      width: 175%;
+      z-index: -1;        
+  }
+    .head__text{
+        padding: 8em 0em;
+        text-align: center;
+        z-index: 1;
+        .head__h1{
+            font-weight: 600;
+        }
+        .head__small{
+            color: rgba($white,0.6);
+        }
+    }
+  
+}
+.container{
+    .dropdown-item{
+        text-transform: capitalize;
+        &:hover{
+            color: $black;
+        }
+    }
+}
