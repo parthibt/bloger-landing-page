@@ -8,70 +8,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bloger Landing Page</title>
 </head>
 <body>
-   <header class="header">
-           <img class="head__back" src="images/bg-pattern-intro-desktop.svg" alt="">
-                   <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.svg" alt="log of bloger">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link accordion-button-icon text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        product
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Overview</a></li>
-                        <li><a class="dropdown-item" href="#">pricing</a></li>
-                        <li><a class="dropdown-item" href="#">marketplace</a></li>
-                        <li><a class="dropdown-item" href="#">featurs</a></li>
-                        <li><a class="dropdown-item" href="#">integrations</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        company
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">about</a></li>
-                        <li><a class="dropdown-item" href="#">team</a></li>
-                        <li><a class="dropdown-item" href="#">blog</a></li>
-                        <li><a class="dropdown-item" href="#">careers</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        connect
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">contact</a></li>
-                        <li><a class="dropdown-item" href="#">newsletters</a></li>
-                        <li><a class="dropdown-item" href="#">linked</a></li>
-        
-                        </ul>
-                    </li>
+    <header class="header">
+        <div class="header__img">
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/icon-hamburger.svg" alt="">
+              </button>
+              <div class="small-nav collapse navbar-collapse"               id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 small-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-1 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      product
+                      <span class="font-down1"><i class="fas fa-chevron-down"></i></span>
+                      <span class="font-up1"><i class="fas fa-chevron-up"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">overview</a></li>
+                      <li><a class="dropdown-item" href="#">pricing</a></li>
+                      <li><a class="dropdown-item" href="#">marketplace</a></li>
+                      <li><a class="dropdown-item" href="#">features</a></li>
+                      <li><a class="dropdown-item" href="#">integrations</a></li>
                     </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-2 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      company
+                      <span class="font-down2"><i class="fas fa-chevron-down"></i></span>
+                      <span class="font-up2"><i class="fas fa-chevron-up"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">about</a></li>
+                      <li><a class="dropdown-item" href="#">team</a></li>
+                      <li><a class="dropdown-item" href="#">blog</a></li>
+                      <li><a class="dropdown-item" href="#">careers</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-3 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      connect
+                      <span class="font-down3"><i class="fas fa-chevron-down"></i></span>
+                      <span class="font-up3"><i class="fas fa-chevron-up"></i></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">contact</a></li>
+                      <li><a class="dropdown-item" href="#">newsletter</a></li>
+                      <li><a class="dropdown-item" href="#">linkedIn</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="navbar-text navtext__grid">
+                    <a href="#" class="btn-white">login</a>
+                    <a href="#" class="btn-transperant">sign up</a>
                 </div>
-                
-                <a href="#" class="btn-transperant">login</a>
-                <a href="#" class="btn-white">sign up</a>
-                </div>
-            </nav>
-            <div class="head__text">
-                <h1 class="head__h1">A modern publishing platform</h1>
-                <p class="head__small">Grow your audience and build your online brand</p>
-                <a href="" class="btn-white">start for free</a>
-                <a href="" class="btn-transperant white-back border">learn more</a>
+              </div>
             </div>
+          </nav>
+        <div class="header__publishing">
+
+        </div>
+
     </header>
+
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
 </body>
 </html>

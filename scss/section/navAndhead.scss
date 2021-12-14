@@ -1,39 +1,91 @@
 @use '../custom' as *;
 
-.header{
-    background: linear-gradient(to right, rgba($gradient-1,1),rgba($gradient-2,1));
-    color: $white;
-    position: relative;
-    z-index: 999;
-    overflow: hidden;
-    border-bottom-left-radius: 40px;
-    font-family: 'Overpass', sans-serif;
-
-  .head__back{
-      position: absolute;
-      top: -235%;
-      left: 0;
-      width: 175%;
-      z-index: -1;        
-  }
-    .head__text{
-        padding: 8em 0em;
-        text-align: center;
-        z-index: 1;
-        .head__h1{
-            font-weight: 600;
-        }
-        .head__small{
-            color: rgba($white,0.6);
-        }
-    }
-  
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
-.container{
-    .dropdown-item{
+.dropdown-toggle::after{
+    display: none;
+}
+.font-down1{
+    position: absolute;
+}
+.font-down2{
+    position: absolute;
+}
+.font-down3{
+    position: absolute;
+}
+.font-up1{
+   visibility: hidden;
+}
+.font-up2{
+    visibility: hidden;
+}
+.font-up3{
+    visibility: hidden;
+}
+.fontdown{
+    visibility: hidden;
+}
+.fontup{
+    visibility: visible;
+}
+
+.header{
+    background: linear-gradient(to right,$gradient-1,$gradient-2);
+    font-family: 'Overpass', sans-serif;
+    .btn-white{
+        padding: 0.6em 0.8em;
+        text-decoration: none;
+        font-weight: 600;
+        
+    }
+    .btn-transperant{
+        background: $white;
+        color: $gradient-2;
+        text-decoration: none;
+        padding: 0.5em 2em;
+        border-radius: 20px;
+        font-weight: 600;
+    }
+    .btn-transperant:hover{
+        background: rgba($white,0.3);
+        color: $white;
+    }
+    a{
         text-transform: capitalize;
-        &:hover{
+    }
+}
+@media screen and (max-width: 760px){
+    .small-nav{
+        background: $white !important;
+        text-align: center;
+        border-radius: 8px;
+        a{
             color: $black;
         }
+        [class^="font-"]{
+            color: $gradient-1;
+        }
+     .dropdown-item{
+         text-align: center;
+     }   
     }
+    .navtext__grid{
+        display: grid;
+        width: 100px;
+        margin: auto;
+    }
+    .btn-transperant{
+        background: linear-gradient(to right,$gradient-1,$gradient-2) !important;
+        color: $white !important;
+        white-space: nowrap;
+    }
+    .btn-transperant:hover{
+        background: linear-gradient(to right,rgba($gradient-1,0.6),rgba($gradient-2,0.5)) !important; 
+    }
+    
 }
