@@ -45,7 +45,7 @@
             display: none;
         }
         .future__img2{
-            width: 90%;
+            width: 100%;
             display: block;
         }
         .future__texts{
@@ -56,4 +56,10 @@
             align-items: center;
         }
     }
+}
+@media screen and (min-width:1200px){
+    .future__img2{
+        width: 50%;
+    }
+    
 }

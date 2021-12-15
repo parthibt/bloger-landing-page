@@ -11333,6 +11333,11 @@ textarea.form-control-lg {
     align-items: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .future__img2 {
+    width: 50%;
+  }
+}
 .section__infrastructure {
   margin-top: 13em;
   background: linear-gradient(to right, #3f4164, #2c2d3f);
