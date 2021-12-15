@@ -11123,16 +11123,20 @@ textarea.form-control-lg {
   font-family: "Ubuntu", sans-serif !important;
 }
 .section h1, .section h3 {
-  text-align: center;
   color: #1f3f5b;
 }
-.section p {
+.section h1 {
   text-align: center;
+}
+.section p {
   font-size: 1rem;
   color: #4b5862;
 }
 .section .future__heading {
   margin-top: 10px;
+}
+.section .future__text p {
+  max-width: 400px;
 }
 .section .future__img1 {
   display: block;
@@ -11151,14 +11155,12 @@ textarea.form-control-lg {
   margin-bottom: 2em;
 }
 
+@media screen and (max-width: 568px) {
+  h3, p {
+    text-align: center;
+  }
+}
 @media screen and (min-Width: 768px) {
-  .section h3 {
-    text-align: left;
-  }
-  .section p {
-    text-align: left;
-    max-width: 900px;
-  }
   .section .future__img1 {
     display: none;
   }
@@ -11167,16 +11169,15 @@ textarea.form-control-lg {
     display: block;
   }
   .section .future__texts {
-    width: 90%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
-  .future__img2 {
-    width: 50%;
+  .future__texts {
+    width: 90%;
+    margin: auto;
   }
 }
 

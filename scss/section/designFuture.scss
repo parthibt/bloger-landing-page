@@ -4,16 +4,22 @@
     margin: 1em;
     font-family: 'Ubuntu', sans-serif !important;
     h1,h3{
-        text-align: center;
         color: $secondary;
     }
-    p{
+    h1{
         text-align: center;
+    }
+    p{
         font-size: 1rem;
         color: $body-copy;
     }
     .future__heading{
         margin-top: 10px;
+    }
+    .future__text{
+        p{
+            max-width: 400px;
+        }
     }
     .future__img1{
         display: block;
@@ -32,15 +38,15 @@
         margin-bottom: 2em;
     }
 }
+@media screen and (max-width:568px){
+    h3,p{
+        text-align: center;
+
+    }
+    
+}
 @media screen and (min-Width: 768px){
     .section{
-        h3{
-            text-align:left;
-        }
-        p{
-            text-align:left;
-            max-width: 900px;
-        }
         .future__img1{
             display: none;
         }
@@ -49,8 +55,6 @@
             display: block;
         }
         .future__texts{
-            width: 90%;
-            margin: auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -58,8 +62,9 @@
     }
 }
 @media screen and (min-width:1200px){
-    .future__img2{
-        width: 50%;
-    }
+  .future__texts{
+      width: 90%;
+      margin: auto;
+  }
     
 }

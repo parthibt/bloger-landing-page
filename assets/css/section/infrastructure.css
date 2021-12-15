@@ -11132,6 +11132,7 @@ textarea.form-control-lg {
 .section__infrastructure p {
   color: #dee2e6;
   margin-bottom: 60px;
+  max-width: 600px;
 }
 .section__infrastructure .infrastructure__img {
   position: absolute;

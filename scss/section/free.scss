@@ -1,7 +1,14 @@
 @use '../custom' as *;
 .section__laptop{
-    margin-top: 50px;
+    .laptop__text{
+        p{
+            max-width: 700px;
+        }
+    }
     .laptop__img{
+        p{
+            max-width: 600px;
+        }
         img{
             width: 100%;
         }

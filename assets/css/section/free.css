@@ -11118,8 +11118,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.section__laptop {
-  margin-top: 50px;
+.section__laptop .laptop__text p {
+  max-width: 700px;
+}
+.section__laptop .laptop__img p {
+  max-width: 600px;
 }
 .section__laptop .laptop__img img {
   width: 100%;
