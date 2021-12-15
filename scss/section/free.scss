@@ -1,0 +1,20 @@
+@use '../custom' as *;
+.section__laptop{
+    margin-top: 50px;
+    .laptop__img{
+        img{
+            width: 100%;
+        }
+    }
+}
+@media screen and (min-width: 500px){
+    .section__laptop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3,p{
+            text-align: left;
+        }
+    }
+    
+}

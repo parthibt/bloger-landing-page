@@ -11131,6 +11131,7 @@ textarea.form-control-lg {
 }
 .section__infrastructure p {
   color: #dee2e6;
+  margin-bottom: 60px;
 }
 .section__infrastructure .infrastructure__img {
   position: absolute;
@@ -11155,6 +11156,7 @@ textarea.form-control-lg {
   }
   .section__infrastructure p {
     margin: 1em;
+    margin-top: 0;
   }
   .section__infrastructure .infrastructure__img {
     margin-top: 0%;

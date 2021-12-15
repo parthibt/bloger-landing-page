@@ -11146,6 +11146,10 @@ textarea.form-control-lg {
 .section__future {
   margin-bottom: 5em;
 }
+.section__future .future__heading {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
 
 @media screen and (min-Width: 768px) {
   .section h3 {

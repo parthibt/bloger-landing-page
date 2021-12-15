@@ -11,6 +11,7 @@
     }
     p{
         color: $gray-300;
+        margin-bottom: 60px;
     }
     .infrastructure__img{
         position: absolute;
@@ -23,6 +24,7 @@
         margin-left: -10%;
     }
 }
+
 @media screen and (min-width:500px){
     .section__infrastructure{
         margin-top: 0;
@@ -34,6 +36,7 @@
         }
         p{
             margin: 1em;
+            margin-top: 0;
         }
         .infrastructure__img{
             margin-top: 0%;

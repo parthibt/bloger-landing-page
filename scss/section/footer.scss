@@ -1,0 +1,29 @@
+@use '../custom' as *;
+
+@media screen and (max-width: 768px){
+    .footer{
+        text-align: center;
+    }
+    .headline{
+        img{
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+    }
+}
+.footer{
+    border-radius: 0px 40px 0px 40px;
+    background: $footer-back;
+    margin: 1em;
+    a{
+        text-decoration: none;
+        color: $gray-400 !important;
+    }
+    .headline{
+        color: white !important;
+    }
+    .container{
+        width: 70%;
+        margin: auto;
+    }
+}
