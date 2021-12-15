@@ -11287,7 +11287,7 @@ textarea.form-control-lg {
 }
 .section p {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #4b5862;
 }
 .section .future__heading {
@@ -11316,7 +11316,7 @@ textarea.form-control-lg {
   }
   .section p {
     text-align: left;
-    max-width: 700px;
+    max-width: 900px;
   }
   .section .future__img1 {
     display: none;
