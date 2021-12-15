@@ -1,3 +1,5 @@
+//chevron icon change
+
 const dropdown1 = document.querySelector('.nav-1');
 const dropdown2 = document.querySelector('.nav-2');
 const dropdown3 = document.querySelector('.nav-3');
@@ -28,3 +30,23 @@ function changeFontIcon2(){
 dropdown1.addEventListener('click',changeFontIcon);
 dropdown2.addEventListener('click',changeFontIcon1);
 dropdown3.addEventListener('click',changeFontIcon2);
+
+//hamburger change
+
+const hamburgerIcons = ["images/icon-hamburger.svg","images/icon-close.svg"];
+const hamburger = document.querySelector('.hamburger');
+let i = 0;
+function hamburgerFun(){
+        if(hamburgerIcons[i] == hamburgerIcons[0]){
+            i =+1;
+            setImag();
+        }else if(hamburgerIcons[i] == hamburgerIcons[1]){
+            i--;
+            setImag();
+        }
+}
+function setImag(){
+    hamburger.setAttribute('src',hamburgerIcons[i]);
+}
+hamburger.addEventListener('click',hamburgerFun);
+

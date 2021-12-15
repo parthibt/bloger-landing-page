@@ -1,0 +1,50 @@
+@use '../custom' as *;
+.section__infrastructure{
+    margin-top: 13em;
+    background: linear-gradient(to right,$gradient-4,$gradient-3);
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 60px 0px 60px;
+    overflow: hidden;
+    h3{
+      color: $white;  
+    }
+    p{
+        color: $gray-300;
+    }
+    .infrastructure__img{
+        position: absolute;
+        max-width: 80%;
+        margin-top: -50%;
+    }
+    .infrastructure__img1{
+        max-width: 100%;
+        margin-top: -40%;
+        margin-left: -10%;
+    }
+}
+@media screen and (min-width:500px){
+    .section__infrastructure{
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3,p{
+            text-align: normal;
+        }
+        p{
+            margin: 1em;
+        }
+        .infrastructure__img{
+            margin-top: 0%;
+            max-width: 50%;
+        }
+        .infrastructure__img1{
+            max-width: 70%;
+            margin-top: -40%;
+            margin-left: -15%;
+        }
+    }
+   
+    
+}

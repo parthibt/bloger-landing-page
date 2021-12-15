@@ -11164,13 +11164,28 @@ textarea.form-control-lg {
 .header {
   background: linear-gradient(to right, #ff8f70, #ff3d54);
   font-family: "Overpass", sans-serif;
+  border-bottom-left-radius: 40px;
+  z-index: 999;
+  position: relative;
+  overflow: hidden;
 }
-.header .btn-white {
+.header .header__img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.header .header__img img {
+  width: 165%;
+  margin-top: -70%;
+  margin-left: -10%;
+}
+.header .btn-transperant {
   padding: 0.6em 0.8em;
   text-decoration: none;
   font-weight: 600;
 }
-.header .btn-transperant {
+.header .btn-white {
   background: #fff;
   color: #ff3d54;
   text-decoration: none;
@@ -11178,22 +11193,61 @@ textarea.form-control-lg {
   border-radius: 20px;
   font-weight: 600;
 }
-.header .btn-transperant:hover {
+.header .btn-white:hover {
   background: rgba(255, 255, 255, 0.3);
   color: #fff;
 }
 .header a {
   text-transform: capitalize;
 }
+.header .header__publishing {
+  padding: 6em 0em;
+  text-align: center;
+  z-index: -2;
+}
+.header .header__publishing .publishing__big {
+  color: #fff;
+  font-weight: 600;
+}
+.header .header__publishing .Publishing__small {
+  color: #ced4da !important;
+  line-height: 2.3;
+}
+.header .header__publishing .btn-white1 {
+  background: #fff;
+  color: #ff3d54;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.header .header__publishing .btn-white1:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: #fff;
+}
+.header .header__publishing .btn-transperant1 {
+  padding: 0.5em 0.8em;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+}
 
 @media screen and (max-width: 760px) {
+  .header__img img {
+    width: 250% !important;
+    margin-top: -60% !important;
+    margin-left: -45% !important;
+  }
+
   .small-nav {
     background: #fff !important;
     text-align: center;
     border-radius: 8px;
   }
   .small-nav a {
-    color: #000;
+    color: #1f3f5b;
+    font-weight: 600;
   }
   .small-nav [class^=font-] {
     color: #ff8f70;
@@ -11209,12 +11263,17 @@ textarea.form-control-lg {
   }
 
   .btn-transperant {
-    background: linear-gradient(to right, #ff8f70, #ff3d54) !important;
-    color: #fff !important;
+    color: #1f3f5b;
     white-space: nowrap;
   }
 
-  .btn-transperant:hover {
+  .btn-white {
+    white-space: nowrap;
+    background: linear-gradient(to right, #ff8f70, #ff3d54) !important;
+    color: #fff !important;
+  }
+
+  .btn-white:hover {
     background: linear-gradient(to right, rgba(255, 143, 112, 0.6), rgba(255, 61, 84, 0.5)) !important;
   }
 }
