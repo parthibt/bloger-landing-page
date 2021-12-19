@@ -11295,14 +11295,14 @@ textarea.form-control-lg {
   margin-top: 10px;
 }
 .section .future__text p {
-  max-width: 600px;
+  max-width: 500px;
 }
 .section .future__texts {
   display: flex;
   flex-direction: column-reverse;
 }
 .section .future__img2 {
-  max-width: 100%;
+  max-width: 600px;
 }
 
 .section__future {
