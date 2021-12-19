@@ -11233,7 +11233,7 @@ textarea.form-control-lg {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 500px) {
   .header__img img {
     width: 250% !important;
     margin-top: -60% !important;

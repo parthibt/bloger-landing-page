@@ -11138,13 +11138,12 @@ textarea.form-control-lg {
 .section .future__text p {
   max-width: 400px;
 }
-.section .future__img1 {
-  display: block;
-  margin: 0 auto;
-  width: 80%;
+.section .future__texts {
+  display: flex;
+  flex-direction: column-reverse;
 }
 .section .future__img2 {
-  display: none;
+  max-width: 100%;
 }
 
 .section__future {
@@ -11155,23 +11154,38 @@ textarea.form-control-lg {
   margin-bottom: 2em;
 }
 
-@media screen and (max-width: 568px) {
-  h3, p {
+@media screen and (max-width: 499px) {
+  .section h3, .section p {
     text-align: center;
   }
+  .section p {
+    font-size: 0.9rem;
+  }
 }
-@media screen and (min-Width: 768px) {
-  .section .future__img1 {
-    display: none;
+@media screen and (min-Width: 500px) {
+  .section .future__text p {
+    margin: 1em auto;
   }
-  .section .future__img2 {
-    width: 60%;
-    display: block;
+  .section .future__text h3 {
+    max-width: 400px;
+    margin: auto;
   }
+  .section p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 769px) {
   .section .future__texts {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .section p {
+    font-size: 1rem;
+  }
+
+  .future__img2 {
+    width: 70%;
   }
 }
 @media screen and (min-width: 1200px) {
