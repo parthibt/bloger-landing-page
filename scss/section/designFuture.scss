@@ -18,7 +18,7 @@
     }
     .future__text{
         p{
-            max-width: 400px;
+            max-width: 600px;
         }
     }
     .future__texts{
@@ -54,7 +54,7 @@
                 margin: 1em auto;
             }
             h3{
-                max-width: 400px;
+                max-width: 600px;
                 margin: auto;
             }
         }
@@ -71,6 +71,9 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            h3{
+                white-space: nowrap;
+            }
         }
         p{
             font-size: 1rem;

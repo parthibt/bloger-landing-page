@@ -11295,7 +11295,7 @@ textarea.form-control-lg {
   margin-top: 10px;
 }
 .section .future__text p {
-  max-width: 400px;
+  max-width: 600px;
 }
 .section .future__texts {
   display: flex;
@@ -11326,7 +11326,7 @@ textarea.form-control-lg {
     margin: 1em auto;
   }
   .section .future__text h3 {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
   }
   .section p {
@@ -11338,6 +11338,9 @@ textarea.form-control-lg {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .section .future__texts h3 {
+    white-space: nowrap;
   }
   .section p {
     font-size: 1rem;
